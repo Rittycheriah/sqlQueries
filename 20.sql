@@ -1,4 +1,4 @@
-ELECT query1.* 
+SELECT query1.*
 FROM (SELECT SUM(i.Total) AS SalesTotal, e.EmployeeId, e.FirstName, e.LastName 
 FROM Invoice i 
 JOIN Customer c 
