@@ -1,0 +1,1 @@
+SELECT trx.Name, alb.Title, mt.Name AS MediaName, gen.Name AS GenreName FROM Track trx JOIN Album alb ON alb.AlbumId=trx.AlbumId JOIN MediaType mt ON mt.MediaTypeId=trx.MediaTypeId JOIN Genre gen ON gen.GenreId=trx.GenreId;
